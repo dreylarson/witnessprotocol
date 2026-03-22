@@ -152,7 +152,7 @@ button.secondary {
 .response h2 {
   margin: 0 0 10px;
   font-size: 1.1rem;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Lucida Console", monospace;
   color: var(--danger);
   font-weight: 600;
 }
