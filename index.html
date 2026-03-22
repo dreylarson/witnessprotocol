@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Witness Protocol</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="header">
+      <div class="eyebrow">Restricted Interface</div>
+      <h1>The Witness Protocol</h1>
+      <p class="sub">
+        Submit the invocation. Present the inquiry. Receive what was already known.
+      </p>
+    </section>
+
+    <section class="content">
+      <div class="field">
+        <label for="petition">Invocation</label>
+        <input
+          id="petition"
+          type="text"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Witness, reveal the truth with your wisdom."
+        />
+      </div>
+
+      <div class="field">
+        <label for="question">Inquiry</label>
+        <input
+          id="question"
+          type="text"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="State your question"
+        />
+      </div>
+
+      <div class="actions">
+        <button id="submitBtn" type="button">Receive Testimony</button>
+        <button id="resetBtn" type="button" class="secondary">Reset</button>
+      </div>
+
+      <section class="response" id="responseBox" aria-live="polite">
+        <h2>Truth received</h2>
+        <div class="question-text" id="questionEcho"></div>
+        <div class="answer-text cursor" id="answerText"></div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
