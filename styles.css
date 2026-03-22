@@ -57,7 +57,7 @@ h1 {
   margin: 0;
   font-size: clamp(2rem, 4vw, 2rem);
   font-weight: 700;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Lucida Console", monospace;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(184, 184, 255, 0.18);
